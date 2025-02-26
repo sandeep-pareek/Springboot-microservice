@@ -1,15 +1,12 @@
 package com.sandeep.userservice.entity;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
 @Entity
+@Table(name = "User")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
